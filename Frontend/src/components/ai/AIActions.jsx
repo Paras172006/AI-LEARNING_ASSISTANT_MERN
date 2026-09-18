@@ -22,7 +22,7 @@ const AIActions = () => {
             setModalTitle("Generated Summary");
             setModalContent(summary);
             setIsModalOpen(true);
-        } catch (error) {
+        } catch {
             toast.error("Failed to generate summary.");
         } finally {
             setLoadingAction(null);
@@ -46,7 +46,7 @@ const AIActions = () => {
             setModalContent(explanation);
             setIsModalOpen(true);
             setConcept("");
-        } catch (error) {
+        } catch {
             toast.error("Failed to explain concept.");
         } finally {
             setLoadingAction(null);
@@ -64,9 +64,9 @@ const AIActions = () => {
                         </div>
                         <div>
                             <h3 className="text-lg font-semibold text-slate-900">
-                                AI Assistant
+                                Cognify AI
                             </h3>
-                            <p className="text-xs text-slate-500">Powered by advanced AI</p>
+                            <p className="text-xs text-slate-500">Powered by Gemini AI</p>
                         </div>
                     </div>
                 </div>

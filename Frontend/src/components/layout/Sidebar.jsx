@@ -1,7 +1,7 @@
 import React from "react";
 
 import { NavLink, useNavigate } from "react-router-dom";
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../context/useAuth";
 import {
   LayoutDashboard,
   FileText,
@@ -49,7 +49,10 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             <div className="flex items-center justify-center w-9 h-9 rounded-xl bg-linear-to-br from-emerald-400 to-teal-500 shadow-md shadow-emerald-500/20">
               <BrainCircuit className="text-white" size={20} strokeWidth={2.5} />
             </div>
-            <h1 className="text-sm md:text-base font-bold text-slate-900 tracking-tight">AI Learning Assistant</h1>
+            <h1 className="text-base md:text-lg font-bold text-slate-900 tracking-tight flex items-center gap-1.5">
+              Cognify
+              <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded-md bg-emerald-50 text-emerald-600 border border-emerald-200/50">AI</span>
+            </h1>
           </div>
           <button onClick={toggleSidebar} className="md:hidden text-slate-500 hover:text-slate-800">
             <X size={24} />

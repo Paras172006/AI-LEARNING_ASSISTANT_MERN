@@ -1,11 +1,11 @@
 
-# AI-Learning Assistant (MERN)
+# Cognify — AI Learning Platform (MERN)
 
-The AI Learning Assistant is a full-stack web application designed to transform traditional PDF documents into interactive, AI-powered learning experiences. Built using the MERN stack (MongoDB, Express, React, Node.js) and styled with Tailwind CSS, the platform leverages Google Gemini AI to help users study smarter and more efficiently.
+**Cognify** is a modern full-stack web application designed to transform traditional PDF documents into interactive, AI-powered learning experiences. Built using the MERN stack (MongoDB, Express, React, Node.js) and styled with Tailwind CSS, the platform leverages Google Gemini AI to help users study smarter and retain knowledge faster.
 
-Users can upload PDF documents and instantly unlock powerful learning tools such as AI chat, auto-generated summaries, flashcards, and quizzes—all tailored to the document’s content. The application also includes progress tracking to help learners monitor their understanding and improvement over time.
+Users can upload PDF documents and instantly unlock powerful learning tools such as Cognify AI chat, auto-generated summaries, smart flashcards, and interactive quizzes—all tailored to the document’s content. The application also includes progress tracking to help learners monitor their understanding and improvement over time.
 
-This project focuses on enhancing productivity, improving comprehension, and making self-study more engaging through intelligent automation and a clean, modern UI.
+Cognify focuses on enhancing productivity, improving comprehension, and making self-study intuitive and engaging through intelligent automation and a clean, modern UI.
 
 
 ## Project Setup

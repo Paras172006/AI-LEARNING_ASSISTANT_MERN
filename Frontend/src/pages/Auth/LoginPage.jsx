@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../context/useAuth';
 import authService from '../../services/authService';
 import { BrainCircuit, Mail, Lock, ArrowRight } from 'lucide-react';
 import toast from 'react-hot-toast';
@@ -42,14 +42,17 @@ const LoginPage = () => {
         <div className="bg-white/80 backdrop-blur-xl border border-slate-200/60 rounded-3xl shadow-xl shadow-slate-200/50 p-10">
           {/* Header */}
           <div className="text-center mb-10">
-            <div className=" inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-linear-to-br from-emerald-400 to-teal-500 shadow-lg shadow-emerald-500/25 mb-6">
+            <div className=" inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-linear-to-br from-emerald-400 to-teal-500 shadow-lg shadow-emerald-500/25 mb-4">
               <BrainCircuit className="w-7 h-7 text-white" strokeWidth={2} />
             </div>
-            <h1 className=" text-2xl font-medium text-slate-900 tracking-tight mb-2">
+            <h2 className="text-xl font-bold bg-linear-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent mb-1">
+              Cognify
+            </h2>
+            <h1 className=" text-2xl font-semibold text-slate-900 tracking-tight mb-2">
               Welcome back
             </h1>
             <p className="text-slate-500 text-sm">
-              Sign in to continue your journey
+              Sign in to continue your learning journey
             </p>
           </div>
 

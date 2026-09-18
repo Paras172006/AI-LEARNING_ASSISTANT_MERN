@@ -3,7 +3,7 @@ import PageHeader from "../../components/common/PageHeader";
 import Button from "../../components/common/Button";
 import Spinner from "../../components/common/Spinner";
 import authService from "../../services/authService";
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../context/useAuth";
 import toast from "react-hot-toast";
 import { User, Mail, Lock } from "lucide-react";
 
